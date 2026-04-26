@@ -29,7 +29,7 @@ const NewsCard = ({news}) => {
                 </div>
                 <h2 className="card-title">{news.title}</h2>
                 <figure>
-                    <Image src={news.image_url} alt={news.title} width="400" height="400" />
+                    <Image className='w-full' src={news.image_url} alt={news.title} width="400" height="400" />
                 </figure>
                 
                 <p className='line-clamp-3'>{news.details}</p>

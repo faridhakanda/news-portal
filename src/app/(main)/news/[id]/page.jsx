@@ -60,6 +60,7 @@ const NewsDetailsPage = async ({ params }) => {
             <h2 className="card-title">{news.title}</h2>
             <figure>
               <Image
+                className="w-full"
                 src={news.image_url}
                 alt={news.title}
                 width="400"
